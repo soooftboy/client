@@ -1,0 +1,881 @@
+{
+  "releases": [
+    {
+      "id": 1,
+      "imageUrl": "001",
+      "name": "Температура",
+      "authors": [
+        {
+          "name": "Три дня дождя",
+          "link": "#"
+        },
+        {
+          "name": "polnalyubvi",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "002",
+      "name": "ЧСВ",
+      "authors": [
+        {
+          "name": "Lida",
+          "link": "#"
+        },
+        {
+          "name": "Серега Пират",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "003",
+      "name": "VARSKVA",
+      "authors": [
+        {
+          "name": "Big Baby Tape",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "imageUrl": "004",
+      "name": "RAW",
+      "authors": [
+        {
+          "name": "CMH",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "imageUrl": "005",
+      "name": "Фото на память",
+      "authors": [
+        {
+          "name": "ПИКЧИ!",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "imageUrl": "006",
+      "name": "60 секунд до зимы",
+      "authors": [
+        {
+          "name": "Гио Пика",
+          "link": "#"
+        },
+        {
+          "name": "Кравц",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "imageUrl": "007",
+      "name": "POX VAWË 0.5",
+      "authors": [
+        {
+          "name": "OG Buda",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "imageUrl": "008",
+      "name": "безумия бездны",
+      "authors": [
+        {
+          "name": "rizza",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "imageUrl": "009",
+      "name": "Мы Смеялись Никто Не Понял",
+      "authors": [
+        {
+          "name": "17 SEVENTEEN",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "imageUrl": "010",
+      "name": "Ангел",
+      "authors": [
+        {
+          "name": "Юпи",
+          "link": "#"
+        },
+        {
+          "name": "FORTUNA 812",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "imageUrl": "011",
+      "name": "Только для тебя",
+      "authors": [
+        {
+          "name": "билборды",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "imageUrl": "012",
+      "name": "Наталия",
+      "authors": [
+        {
+          "name": "Серега Пират",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "imageUrl": "013",
+      "name": "Оверсайз",
+      "authors": [
+        {
+          "name": "ЛСП",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "imageUrl": "014",
+      "name": "сквозь мысли",
+      "authors": [
+        {
+          "name": "LXNER",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "imageUrl": "015",
+      "name": "Sea Of Problems 2",
+      "authors": [
+        {
+          "name": "glichery",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "imageUrl": "016",
+      "name": "Collide",
+      "authors": [
+        {
+          "name": "KID BRUNSWICK",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "imageUrl": "017",
+      "name": "gloomy heart",
+      "authors": [
+        {
+          "name": "akkiemi",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "imageUrl": "018",
+      "name": "Был да всплыл",
+      "authors": [
+        {
+          "name": "nyan.mp3",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "imageUrl": "019",
+      "name": "zombie",
+      "authors": [
+        {
+          "name": "kayyo",
+          "link": "#"
+        },
+        {
+          "name": "Sqwore",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "imageUrl": "020",
+      "name": "Death doesn't like silence",
+      "authors": [
+        {
+          "name": "blueberry",
+          "link": "#"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 1,
+      "imageUrl": "001",
+      "name": "достойно",
+      "authors": [
+        {
+          "name": "aikko",
+          "link": "#"
+        }
+      ],
+      "duration": "3:32",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 2,
+      "imageUrl": "002",
+      "name": "Бедная юность",
+      "authors": [
+        {
+          "name": "playingtheangel",
+          "link": "#"
+        },
+        {
+          "name": "Три дня дождя",
+          "link": "#"
+        },
+        {
+          "name": "МУККА",
+          "link": "#"
+        }
+      ],
+      "duration": "3:27",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 3,
+      "imageUrl": "003",
+      "name": "однополярности",
+      "authors": [
+        {
+          "name": "mzlff",
+          "link": "#"
+        },
+        {
+          "name": "STED.D",
+          "link": "#"
+        }
+      ],
+      "duration": "2:52",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 4,
+      "imageUrl": "004",
+      "name": "запутанный мир",
+      "authors": [
+        {
+          "name": "тринадцать карат",
+          "link": "#"
+        }
+      ],
+      "duration": "2:22",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 5,
+      "imageUrl": "005",
+      "name": "Стотысячекрылым",
+      "authors": [
+        {
+          "name": "pyrokinesis",
+          "link": "#"
+        }
+      ],
+      "duration": "4:27",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 6,
+      "imageUrl": "006",
+      "name": "save that shit",
+      "authors": [
+        {
+          "name": "lil peep",
+          "link": "#"
+        }
+      ],
+      "duration": "3:51",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 7,
+      "imageUrl": "001",
+      "name": "достойно",
+      "authors": [
+        {
+          "name": "aikko",
+          "link": "#"
+        }
+      ],
+      "duration": "3:32",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 8,
+      "imageUrl": "002",
+      "name": "Бедная юность",
+      "authors": [
+        {
+          "name": "playingtheangel",
+          "link": "#"
+        },
+        {
+          "name": "Три дня дождя",
+          "link": "#"
+        },
+        {
+          "name": "МУККА",
+          "link": "#"
+        }
+      ],
+      "duration": "3:27",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 9,
+      "imageUrl": "003",
+      "name": "однополярности",
+      "authors": [
+        {
+          "name": "mzlff",
+          "link": "#"
+        },
+        {
+          "name": "STED.D",
+          "link": "#"
+        }
+      ],
+      "duration": "2:52",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 10,
+      "imageUrl": "004",
+      "name": "запутанный мир",
+      "authors": [
+        {
+          "name": "тринадцать карат",
+          "link": "#"
+        }
+      ],
+      "duration": "2:22",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 11,
+      "imageUrl": "005",
+      "name": "Стотысячекрылым",
+      "authors": [
+        {
+          "name": "pyrokinesis",
+          "link": "#"
+        }
+      ],
+      "duration": "4:27",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 12,
+      "imageUrl": "006",
+      "name": "save that shit",
+      "authors": [
+        {
+          "name": "lil peep",
+          "link": "#"
+        }
+      ],
+      "duration": "3:51",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 13,
+      "imageUrl": "001",
+      "name": "достойно",
+      "authors": [
+        {
+          "name": "aikko",
+          "link": "#"
+        }
+      ],
+      "duration": "3:32",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 14,
+      "imageUrl": "002",
+      "name": "Бедная юность",
+      "authors": [
+        {
+          "name": "playingtheangel",
+          "link": "#"
+        },
+        {
+          "name": "Три дня дождя",
+          "link": "#"
+        },
+        {
+          "name": "МУККА",
+          "link": "#"
+        }
+      ],
+      "duration": "3:27",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 15,
+      "imageUrl": "003",
+      "name": "однополярности",
+      "authors": [
+        {
+          "name": "mzlff",
+          "link": "#"
+        },
+        {
+          "name": "STED.D",
+          "link": "#"
+        }
+      ],
+      "duration": "2:52",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 16,
+      "imageUrl": "004",
+      "name": "запутанный мир",
+      "authors": [
+        {
+          "name": "тринадцать карат",
+          "link": "#"
+        }
+      ],
+      "duration": "2:22",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 17,
+      "imageUrl": "005",
+      "name": "Стотысячекрылым",
+      "authors": [
+        {
+          "name": "pyrokinesis",
+          "link": "#"
+        }
+      ],
+      "duration": "4:27",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 18,
+      "imageUrl": "006",
+      "name": "save that shit",
+      "authors": [
+        {
+          "name": "lil peep",
+          "link": "#"
+        }
+      ],
+      "duration": "3:51",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 19,
+      "imageUrl": "001",
+      "name": "достойно",
+      "authors": [
+        {
+          "name": "aikko",
+          "link": "#"
+        }
+      ],
+      "duration": "3:32",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 20,
+      "imageUrl": "002",
+      "name": "Бедная юность",
+      "authors": [
+        {
+          "name": "playingtheangel",
+          "link": "#"
+        },
+        {
+          "name": "Три дня дождя",
+          "link": "#"
+        },
+        {
+          "name": "МУККА",
+          "link": "#"
+        }
+      ],
+      "duration": "3:27",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 21,
+      "imageUrl": "003",
+      "name": "однополярности",
+      "authors": [
+        {
+          "name": "mzlff",
+          "link": "#"
+        },
+        {
+          "name": "STED.D",
+          "link": "#"
+        }
+      ],
+      "duration": "2:52",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 22,
+      "imageUrl": "004",
+      "name": "запутанный мир",
+      "authors": [
+        {
+          "name": "тринадцать карат",
+          "link": "#"
+        }
+      ],
+      "duration": "2:22",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 23,
+      "imageUrl": "005",
+      "name": "Стотысячекрылым",
+      "authors": [
+        {
+          "name": "pyrokinesis",
+          "link": "#"
+        }
+      ],
+      "duration": "4:27",
+      "songUrl": "aikko-dostojjno"
+    },
+    {
+      "id": 24,
+      "imageUrl": "006",
+      "name": "save that shit",
+      "authors": [
+        {
+          "name": "lil peep",
+          "link": "#"
+        }
+      ],
+      "duration": "3:51",
+      "songUrl": "aikko-dostojjno"
+    }
+  ],
+  "popular": [
+    {
+      "id": 1,
+      "imageUrl": "001",
+      "name": "Зима в сердце",
+      "authors": [
+        {
+          "name": "Моя Мишель",
+          "link": "#"
+        }
+      ],
+      "duration": "4:05",
+      "songUrl": ""
+    },
+    {
+      "id": 2,
+      "imageUrl": "002",
+      "name": "По Следам",
+      "authors": [
+        {
+          "name": "ДЖЕЙЛО",
+          "link": "#"
+        },
+        {
+          "name": "rapper sonah",
+          "link": "#"
+        }
+      ],
+      "duration": "1:46",
+      "songUrl": ""
+    },
+    {
+      "id": 3,
+      "imageUrl": "003",
+      "name": "Может просто",
+      "authors": [
+        {
+          "name": "17 SEVENTEEN",
+          "link": "#"
+        }
+      ],
+      "duration": "2:06",
+      "songUrl": ""
+    },
+    {
+      "id": 4,
+      "imageUrl": "004",
+      "name": "Втюрилась",
+      "authors": [
+        {
+          "name": "Дора",
+          "link": "#"
+        }
+      ],
+      "duration": "3:11",
+      "songUrl": ""
+    },
+    {
+      "id": 5,
+      "imageUrl": "005",
+      "name": "Холодно",
+      "authors": [
+        {
+          "name": "Кишлак",
+          "link": "#"
+        }
+      ],
+      "duration": "3:20",
+      "songUrl": ""
+    },
+    {
+      "id": 6,
+      "imageUrl": "006",
+      "name": "Dynamite",
+      "authors": [
+        {
+          "name": "BTS",
+          "link": "#"
+        }
+      ],
+      "duration": "3:19",
+      "songUrl": ""
+    },
+    {
+      "id": 7,
+      "imageUrl": "007",
+      "name": "Реки растают",
+      "authors": [
+        {
+          "name": "Три дня дождя",
+          "link": "#"
+        }
+      ],
+      "duration": "3:41",
+      "songUrl": ""
+    },
+    {
+      "id": 8,
+      "imageUrl": "008",
+      "name": "mp3",
+      "authors": [
+        {
+          "name": "pyatno",
+          "link": "#"
+        }
+      ],
+      "duration": "2:00",
+      "songUrl": ""
+    },
+    {
+      "id": 9,
+      "imageUrl": "009",
+      "name": "Yeyo!",
+      "authors": [
+        {
+          "name": "Шайни",
+          "link": "#"
+        }
+      ],
+      "duration": "1:51",
+      "songUrl": ""
+    },
+    {
+      "id": 10,
+      "imageUrl": "010",
+      "name": "Лицемер",
+      "authors": [
+        {
+          "name": "DK",
+          "link": "#"
+        }
+      ],
+      "duration": "2:37",
+      "songUrl": ""
+    },
+    {
+      "id": 11,
+      "imageUrl": "011",
+      "name": "sweater holes",
+      "authors": [
+        {
+          "name": "дипинс",
+          "link": "#"
+        }
+      ],
+      "duration": "2:05",
+      "songUrl": ""
+    },
+    {
+      "id": 12,
+      "imageUrl": "012",
+      "name": "Каждый из Дизайнеров",
+      "authors": [
+        {
+          "name": "Pepel Nahudi",
+          "link": "#"
+        },
+        {
+          "name": "xxxmanera",
+          "link": "#"
+        }
+      ],
+      "duration": "2:16",
+      "songUrl": ""
+    },
+    {
+      "id": 13,
+      "imageUrl": "013",
+      "name": "Кисти",
+      "authors": [
+        {
+          "name": "uniqe",
+          "link": "#"
+        },
+        {
+          "name": "nkeeei",
+          "link": "#"
+        },
+        {
+          "name": "ARTEM SHILOVETS",
+          "link": "#"
+        }
+      ],
+      "duration": "2:51",
+      "songUrl": ""
+    },
+    {
+      "id": 14,
+      "imageUrl": "014",
+      "name": "Мне скучно жить",
+      "authors": [
+        {
+          "name": "ЛСП",
+          "link": "#"
+        },
+        {
+          "name": "Oxxxymiron",
+          "link": "#"
+        }
+      ],
+      "duration": "3:51",
+      "songUrl": ""
+    },
+    {
+      "id": 15,
+      "imageUrl": "015",
+      "name": "Calling U Back",
+      "authors": [
+        {
+          "name": "ДЖЕЙЛО",
+          "link": "#"
+        }
+      ],
+      "duration": "3:19",
+      "songUrl": ""
+    },
+    {
+      "id": 16,
+      "imageUrl": "016",
+      "name": "The Marías",
+      "authors": [
+        {
+          "name": "Heronwater",
+          "link": "#"
+        }
+      ],
+      "duration": "2:52",
+      "songUrl": ""
+    },
+    {
+      "id": 17,
+      "imageUrl": "017",
+      "name": "На виду",
+      "authors": [
+        {
+          "name": "Три дня дождя",
+          "link": "#"
+        }
+      ],
+      "duration": "2:34",
+      "songUrl": ""
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "imageUrl": "001",
+      "name": "Три дня дождя"
+    },
+    {
+      "id": 2,
+      "imageUrl": "002",
+      "name": "Playingtheangel"
+    },
+    {
+      "id": 3,
+      "imageUrl": "003",
+      "name": "тринадцать карат"
+    },
+    {
+      "id": 4,
+      "imageUrl": "004",
+      "name": "Lida"
+    },
+    {
+      "id": 5,
+      "imageUrl": "005",
+      "name": "pyrokinesis"
+    },
+    {
+      "id": 6,
+      "imageUrl": "006",
+      "name": "ЛСП"
+    }
+  ]
+}

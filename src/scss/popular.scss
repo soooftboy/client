@@ -1,0 +1,70 @@
+.popular-page {
+  .popular {
+    margin-bottom: 60px;
+
+    &__info {
+      margin-bottom: 20px;
+    }
+  }
+
+  .song {
+    position: relative;
+    padding: 0 30px 0 0;
+    margin-left: 34px;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &:hover {
+      box-shadow: $dropShadow;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      left: -21px;
+      top: 50%;
+      transform: translateY(-50%) translateX(-50%);
+    }
+
+    @for $i from 1 through 17 {
+      &:nth-child(#{$i}) {
+        &::before {
+          content: '#{$i}';
+        }
+      }
+    }
+  }
+}
+
+[data-theme='dark'] {
+  .popular-page {
+    .song {
+      &::before {
+        color: #fff;
+      }
+    }
+  }
+}
+
+[data-theme='light'] {
+  .popular-page {
+    .song {
+      &::before {
+        color: #000;
+      }
+    }
+  }
+}
+
+@media (max-width: 995px) {
+  .popular-page {
+    .song {
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,165 @@
+@import '../variables';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 27px;
+  margin-bottom: 60px;
+
+  &__search-button {
+    border: none;
+    height: 40px;
+    background: transparent;
+  }
+
+  &__search {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    padding: 7px 10px 8px;
+
+    background-color: transparent;
+    width: 300px;
+    height: 34px;
+    border-radius: 30px;
+    border: 2px solid $colorAccent;
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+  }
+
+  &__button {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+
+    cursor: pointer;
+  }
+
+  &__menu {
+    display: flex;
+  }
+
+  &__item {
+    list-style-type: none;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &.active {
+      a {
+        color: $colorAccent;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
+
+.user {
+  display: flex;
+  align-items: center;
+
+  &__name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 14px;
+  }
+
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid $colorAccent;
+  }
+}
+
+[data-theme='dark'] {
+  .header {
+    &__input {
+      color: $main-text-black;
+
+      &::placeholder {
+        color: rgba($main-text-black, 0.5);
+      }
+    }
+
+    &__search-button path {
+      fill: #fff;
+    }
+
+    &__button {
+      path {
+        fill: $main-text-black;
+      }
+    }
+
+    &__link {
+      color: $main-text-black;
+    }
+  }
+
+  .user {
+    &__name {
+      color: $main-text-black;
+    }
+  }
+}
+
+[data-theme='light'] {
+  .header {
+    &__input {
+      color: $main-text-white;
+
+      &::placeholder {
+        color: rgba($main-text-white, 0.5);
+      }
+    }
+
+    &__search-button path {
+      fill: #000А;
+    }
+
+    &__button {
+      path {
+        fill: $main-text-white;
+      }
+    }
+
+    &__link {
+      color: $main-text-white;
+    }
+  }
+
+  .user {
+    &__name {
+      color: $main-text-white;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .header {
+    margin-bottom: calc(30px + 30 * ((100vw - 1024px) / (1440 - 1024)));
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 995px) {
+  .header {
+    flex-direction: row-reverse;
+  }
+}

@@ -1,0 +1,11 @@
+export { default as Header } from './Header';
+export { default as Footer } from './Footer';
+export { default as Aside } from './Aside';
+export { default as Playerbar } from './Playerbar';
+export { default as Release } from './Release';
+export { default as Song } from './Song';
+export { default as Author } from './Author';
+export { default as Playlist } from './Playlist';
+export { default as Feedback } from './Feedback';
+export { default as PopularSong } from './PopularSong';
+export { default as MyMusicLinks } from './MyMusicLinks';

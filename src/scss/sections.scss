@@ -1,0 +1,107 @@
+.section {
+  &__top {
+    cursor: pointer;
+
+    &:hover {
+      .section__title,
+      .section__more {
+        color: $colorAccent !important;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 7px;
+
+    cursor: pointer;
+  }
+
+  &__subtitle {
+    font-size: 14px;
+  }
+
+  &__more {
+    position: relative;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 23px;
+
+    &:hover {
+      color: $colorAccentHover;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 16px;
+      height: 9px;
+      background: url("../assets/img/icons/arrow-look-more.svg");
+      right: -23px;
+      top: 50%;
+      transform: translateY(-50%) rotate(-90deg);
+    }
+  }
+}
+
+.song-button-play {
+  max-width: 47px;
+  max-height: 47px;
+  background: rgba(218, 218, 218, 0.6);
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  padding: 7px;
+  transition: 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  path {
+    fill: $colorAccent;
+  }
+}
+
+[data-theme='dark'] {
+  .section {
+    &__title {
+      color: $main-text-black;
+    }
+
+    &__subtitle {
+      color: $subtitle-black;
+    }
+
+    &__more {
+      color: $main-text-black;
+    }
+  }
+}
+
+[data-theme='light'] {
+  .section {
+    &__title {
+      color: $main-text-white;
+    }
+
+    &__subtitle {
+      color: $subtitle-white;
+    }
+
+    &__more {
+      color: $main-text-white;
+    }
+  }
+}
+
+@media (max-width: 530px) {
+  .section {
+    &__more {
+      &::after {
+        top: -8px;
+      }
+    }
+  }
+}

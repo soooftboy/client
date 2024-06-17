@@ -1,0 +1,13 @@
+.my-songs-page {
+  .song {
+    padding: 0 30px 0 0;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &:hover {
+      box-shadow: $dropShadow;
+    }
+  }
+}

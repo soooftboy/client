@@ -1,0 +1,116 @@
+.home-page {
+  .authors {
+    display: block;
+
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 20px;
+    }
+
+    &__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px 15px;
+    }
+  }
+}
+
+@media (max-width: 1360px) {
+  .home-page {
+    .authors {
+      &__grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
+@media (max-width: 1070px) {
+  .home-page {
+    .authors {
+      &__grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .author {
+        &__image {
+          width: calc(160px + 37 * ((100vw - 928px) / (1109 - 928)));
+        }
+
+        &__control {
+          width: calc(160px + 37 * ((100vw - 928px) / (1109 - 928)));
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 995px) {
+  .home-page {
+    .authors {
+      .author {
+        &__image {
+          width: calc(160px + 20 * ((100vw - 911px) / (995 - 911)));
+        }
+
+        &__control {
+          width: calc(160px + 20 * ((100vw - 911px) / (995 - 911)));
+        }
+      }
+    }
+
+
+  }
+}
+
+@media (max-width: 911px) {
+  .home-page {
+    .authors {
+      .author {
+        &__image {
+          width: calc(160px + 37 * ((100vw - 724px) / (911 - 724)));
+        }
+
+        &__control {
+          width: calc(160px + 37 * ((100vw - 724px) / (911 - 724)));
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 723px) {
+  .home-page {
+    .authors {
+      .author {
+        &__image {
+          width: calc(160px + 37 * ((100vw - 548px) / (723 - 548)));
+        }
+
+        &__control {
+          width: calc(160px + 37 * ((100vw - 548px) / (723 - 548)));
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 547px) {
+  .home-page {
+    .authors {
+      .author {
+        &__image {
+          width: calc(133px + 64 * ((100vw - 320px) / (547 - 320)));
+        }
+
+        &__control {
+          width: calc(133px + 64 * ((100vw - 320px) / (547 - 320)));
+        }
+      }
+    }
+  }
+}

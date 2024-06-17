@@ -1,0 +1,33 @@
+@import "components/home/releases";
+@import "components/home/recommendations";
+@import "components/home/popular";
+@import "components/home/authors";
+@import "components/home/playlists";
+
+.blocks-popular-playlists {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1070px) {
+  .blocks-popular-playlists {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1440px) {
+  .home-page {
+    .blocks-popular-playlists {
+      margin-bottom: calc(30px + 30 * ((100vw - 1024px) / (1440 - 1024)));
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .home-page {
+    .blocks-popular-playlists {
+      margin-bottom: 30px;
+    }
+  }
+}

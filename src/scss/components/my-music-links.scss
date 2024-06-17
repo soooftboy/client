@@ -1,0 +1,58 @@
+.my-music {
+  margin-bottom: 60px;
+
+  &__info {
+    margin-bottom: 20px;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__item {
+    list-style: none;
+    font-size: 18px;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
+
+[data-theme='dark'] {
+  .my-music {
+    &__link {
+      color: #828282;
+
+      &.active {
+        color: $colorAccent;
+      }
+
+      &:hover {
+        color: $colorAccentHover;
+      }
+    }
+  }
+}
+
+[data-theme='light'] {
+  .my-music {
+    &__link {
+      color: #404040;
+
+      &.active {
+        color: $colorAccent;
+      }
+
+      &:hover {
+        color: $colorAccentHover;
+      }
+    }
+  }
+}

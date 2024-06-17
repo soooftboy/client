@@ -1,0 +1,160 @@
+.popular-authors-page {
+  .authors {
+    margin-bottom: 60px;
+
+    &__info {
+      margin-bottom: 20px;
+    }
+
+    &__all {
+      display: grid;
+      grid-template-columns: repeat(5, 197px);
+      justify-content: space-between;
+      gap: 15px 0;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .popular-authors-page {
+    .authors {
+      &__all {
+        grid-template-columns: repeat(5, calc(160px + 37 * ((100vw - 1110px) / (1440 - 1110))));
+      }
+    }
+
+    .author {
+      &__image {
+        width: calc(160px + 37 * ((100vw - 1110px) / (1440 - 1110)));
+      }
+
+      &__info {
+        max-width: calc(160px + 37 * ((100vw - 1110px) / (1440 - 1110)));
+      }
+
+      &__control {
+        width: calc(160px + 37 * ((100vw - 1110px) / (1440 - 1110)));
+      }
+    }
+  }
+}
+
+@media (max-width: 1109px) {
+  .popular-authors-page {
+    .authors {
+      &__all {
+        grid-template-columns: repeat(4, calc(160px + 37 * ((100vw - 928px) / (1109 - 928))));
+      }
+    }
+
+    .author {
+      &__image {
+        width: calc(160px + 37 * ((100vw - 928px) / (1109 - 928)));
+      }
+
+      &__info {
+        max-width: calc(160px + 37 * ((100vw - 928px) / (1109 - 928)));
+      }
+
+      &__control {
+        width: calc(160px + 37 * ((100vw - 928px) / (1109 - 928)));
+      }
+    }
+  }
+}
+
+@media (max-width: 995px) {
+  .popular-authors-page {
+    .authors {
+      &__all {
+        grid-template-columns: repeat(5, calc(160px + 20 * ((100vw - 911px) / (995 - 911))));
+      }
+    }
+
+    .author {
+      &__image {
+        width: calc(160px + 20 * ((100vw - 911px) / (995 - 911)));
+      }
+
+      &__info {
+        max-width: calc(160px + 20 * ((100vw - 911px) / (995 - 911)));
+      }
+
+      &__control {
+        width: calc(160px + 20 * ((100vw - 911px) / (995 - 911)));
+      }
+    }
+  }
+}
+
+@media (max-width: 911px) {
+  .popular-authors-page {
+    .authors {
+      &__all {
+        grid-template-columns: repeat(4, calc(160px + 37 * ((100vw - 724px) / (911 - 724))));
+      }
+    }
+
+    .author {
+      &__image {
+        width: calc(160px + 37 * ((100vw - 724px) / (911 - 724)));
+      }
+
+      &__info {
+        max-width: calc(160px + 37 * ((100vw - 724px) / (911 - 724)));
+      }
+
+      &__control {
+        width: calc(160px + 37 * ((100vw - 724px) / (911 - 724)));
+      }
+    }
+  }
+}
+
+@media (max-width: 723px) {
+  .popular-authors-page {
+    .authors {
+      &__all {
+        grid-template-columns: repeat(3, calc(160px + 37 * ((100vw - 548px) / (723 - 548))));
+      }
+    }
+
+    .author {
+      &__image {
+        width: calc(160px + 37 * ((100vw - 548px) / (723 - 548)));
+      }
+
+      &__info {
+        max-width: calc(160px + 37 * ((100vw - 548px) / (723 - 548)));
+      }
+
+      &__control {
+        width: calc(160px + 37 * ((100vw - 548px) / (723 - 548)));
+      }
+    }
+  }
+}
+
+@media (max-width: 547px) {
+  .popular-authors-page {
+    .authors {
+      &__all {
+        grid-template-columns: repeat(2, calc(133px + 64 * ((100vw - 320px) / (547 - 320))));
+      }
+    }
+
+    .author {
+      &__image {
+        width: calc(133px + 64 * ((100vw - 320px) / (547 - 320)));
+      }
+
+      &__info {
+        max-width: calc(133px + 64 * ((100vw - 320px) / (547 - 320)));
+      }
+
+      &__control {
+        width: calc(133px + 64 * ((100vw - 320px) / (547 - 320)));
+      }
+    }
+  }
+}

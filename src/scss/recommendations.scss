@@ -1,0 +1,42 @@
+.recommendations-page {
+  .recommendations {
+    margin-bottom: 60px;
+
+    &__info {
+      margin-bottom: 20px;
+    }
+  }
+
+
+  .song {
+    padding: 0 30px 0 0;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &:hover {
+      box-shadow: $dropShadow;
+    }
+
+    &__play {
+      transform: scale(0.8);
+
+      &:hover {
+        transform: scale(0.88);
+      }
+    }
+
+    &__info {
+      max-width: 960px;
+    }
+  }
+}
+
+@media (max-width: 995px) {
+  .recommendations-page {
+    .song {
+      padding: 0;
+    }
+  }
+}
